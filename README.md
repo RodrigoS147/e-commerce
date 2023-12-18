@@ -1,5 +1,5 @@
 
-<h3 align="center">Hola 👋, soy Rodrigo Santos.</h3>
+<h3 align="center">Hi 👋, I am Rodrigo Santos.</h3>
 
 
 <p align="center">
