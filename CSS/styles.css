@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #3498db;
+}
+
+.botones-container {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hace que los elementos de la lista sean flexibles */
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px; /* Espaciado alrededor del texto del enlace */
+  border-radius: 4px; /* Bordes redondeados para los enlaces */
+}
+
+a:hover {
+  background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+}
