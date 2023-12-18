@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-  color: #3498db;
+  color: #cdebff;
+}
+
+h2{
+  color: #cdebff;
 }
 
 .botones-container {
@@ -15,7 +19,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #000000;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -26,15 +30,13 @@ form {
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid #3498db;
-  border-radius: 4px;
-  background-color: #f9f9f9;
+  background-color: #141c29;
 }
 
 label {
   display: block;
   margin: 10px 0 5px;
-  color: #333;
+  color: #ffffff;
 }
 
 input {
@@ -45,7 +47,7 @@ input {
 }
 
 button[type="submit"] {
-  background-color: #3498db;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -126,7 +128,7 @@ header {
 }
 
 .agregarCarrito {
-  background-color: #4caf50;
+  background-color: #ffffff;
   color: white;
   padding: 8px 16px;
   border: none;
@@ -134,7 +136,7 @@ header {
 }
 
 .agregarCarrito:hover {
-  background-color: #45a049;
+  background-color: #ffffff;
 }
 
 #listaCarrito li {
@@ -188,4 +190,103 @@ header {
 
 #carrito img.icono-carrito {
   cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #141C29;
+  padding-top: 80px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 30px 0px;
+}
+img {
+  width: 320px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:15%;
+  height: 70px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+.scroll{
+  background-color: aliceblue;
+  box-shadow: .1rem .2rem .3rem #333;
+}
+.scroll img{
+  filter: invert(15%);
+}           
+.scroll h1{
+  color: #141C29;
+}
+.carrito{
+  filter: invert(100%);
+  width: 45px;
+  height: auto;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.contenedor>div{
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #2D4263;
+  border-radius: 20px;
+}
+.contenedor>div:hover{
+  background-color: #383b3f;
+}
+
+.informacion{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:15px;
+}
+.informacion>p:first-child{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+.informacion .precio {
+  font-size: 20px;
+  font-weight: 500;
+}
+.informacion .precio span{
+  font-size: 17px;
+  font-weight: 300;
+}
+.informacion button{
+  background-color: #263143;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+
+  font-size: 17px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.informacion button:hover{
+  background-color: #2D4263;
 }
