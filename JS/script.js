@@ -3,12 +3,8 @@ document.getElementById("registroForm").addEventListener("submit", function(even
   alert("Formulario enviado. ¡Gracias por registrarte!");
 });
 
-document.getElementById("miBoton").addEventListener("click", function() {
-  // Redirigir a otra página
-window.location.href = "otra-pagina.html";
-});
 
-document.getElementById("Back2Main").addEventListener("click", function() {
-  // Redirigir a la página principal
+document.getElementById("return2MainPage").addEventListener("click", function() {
+  // Redirigir a index.html
   window.location.href = "index.html";
 });
