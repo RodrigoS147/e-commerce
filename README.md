@@ -1,5 +1,5 @@
 
-<h1 align="center">Hola 👋, soy Rodrigo Santos</h1>
+<h3 align="center">Hola 👋, soy Rodrigo Santos</h3>
 
 Welcome!
 
@@ -9,4 +9,3 @@ Welcome!
    <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
 
-<h1 align="center">Hola 👋, soy Rodrigo Santos</h1>
