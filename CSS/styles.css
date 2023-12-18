@@ -3,7 +3,6 @@ body {
   text-align: center;
 }
 
-
 h1 {
   color: #3498db;
 }
@@ -71,7 +70,6 @@ a {
 a:hover {
   background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
 }
-
 
 body {
   margin: 0; /* Elimina el margen predeterminado del cuerpo de la página */
@@ -153,7 +151,9 @@ header {
   height: 100%;
   overflow-y: auto;
   transition: transform 0.3s ease; /* Agrega transición para un efecto suave */
-  transform: translateX(200px); /* Inicialmente, desplaza el carrito fuera de la pantalla */
+  transform: translateX(
+    200px
+  ); /* Inicialmente, desplaza el carrito fuera de la pantalla */
 }
 
 .icono-carrito {
